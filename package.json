@@ -1,0 +1,17 @@
+{
+  "name": "s3-upload-using-url",
+  "version": "1.0.0",
+  "description": "App that can be used to migrate media to an AWS S3 bucket using the media's URL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Wascorp Digital",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.771.0",
+    "axios": "^0.20.0",
+    "node-fetch": "^2.6.1"
+  }
+}
